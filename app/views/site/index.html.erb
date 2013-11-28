@@ -1,39 +1,6 @@
-<div class="container">
-  <h1>How's my Wifi?</h1>
-
-  <div class="circle">
-     <div class="borderCircle"></div>
-     <div class="borderCircle2"></div>
-     <div class="borderCircle3"></div>
-     <div class="innerCircle">
-         <p>Launch</p>
-     </div>
-     <div class="outerCircle"></div>
-   </div>
-   <div id="msg"></div>
-</div>
+<div id="content"></div>
 
 <script>
-$('.innerCircle').on('click', function() {
-  msgDiv.innerHTML = "<h3>Speed test in progress. Please wait...</h3>"; 
-  SomApi.startTest()
-})
-
-var msgDiv = document.getElementById("msg");
-
-SomApi.onTestCompleted = function(testResult) {
-  msgDiv.innerHTML = 
-    "<h3>"+ 
-    "Download: "+testResult.download+"<br/>"+ 
-    "Upload: "+testResult.upload+"<br/>"+ 
-    "Test Server: "+testResult.testServer+"<br/>"+ 
-    "IP: "+testResult.ip_address+"<br/>"+ 
-    "Hostname: "+testResult.hostname+"<br/>"+ 
-    "</h3>"; 
-}
-
-SomApi.onError = function(error) { 
- msgDiv.innerHTML = "Error "+ error.code + ": "+error.message; 
-} 
-
+  $('#content').on('click', '#btn-launch', startTest);
 </script>
+ 

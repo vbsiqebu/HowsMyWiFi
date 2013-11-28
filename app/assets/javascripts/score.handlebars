@@ -1,0 +1,16 @@
+@template2 = 
+  scoreTemplate: Handlebars.compile "
+    <ul>
+      {{#each score}}
+        <li data-id=\"{{id}}\">{{latency}}</li>
+      {{/each}}
+    </ul>
+  "
+  scoreTemplate: Handlebars.compile 
+      {{#each score}}
+        <p class=\"name\">{{latency}}</p>
+        <p class=\"name\">{{bandwidth}}</p>
+        <p class=\"name\">{{tested_at}}</p>
+        <p><a id=\"all-scores\" href=\"#\">Back to Scores</a></p>
+      {{/each}}
+   
