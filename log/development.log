@@ -13725,3 +13725,73 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-28 15:01:23
 
 
 Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-11-28 15:01:23 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 194ms (Views: 193.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/speedtest.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/templates/location.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/templates/location_edit.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/templates/data.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/templates/location_add.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/templates/score.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/templates/score_add.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:42 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:43 +0800
+
+
+Started GET "/assets/templates/score_edit.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:43 +0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-12-14 22:13:43 +0800
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2013-12-14 22:13:43 +0800
